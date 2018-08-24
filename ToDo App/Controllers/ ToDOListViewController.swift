@@ -18,8 +18,6 @@ class ToDOListViewController: UITableViewController{
             loadItems()
         }
     }
-  
-    let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     
     
     override func viewDidLoad() {
